@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42843" started-at="2020-01-28T04:34:09Z" finished-at="2020-01-28T04:34:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42843" started-at="2020-01-28T04:34:09Z" finished-at="2020-01-28T04:34:52Z">
+      <class name="com.saleforce.TestPage.loginTestPage">
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="7629" started-at="2020-01-28T04:34:09Z" finished-at="2020-01-28T04:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="Validatelogo()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="Validatelogo" duration-ms="54" started-at="2020-01-28T04:34:17Z" finished-at="2020-01-28T04:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatelogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="tearDown" is-config="true" duration-ms="619" started-at="2020-01-28T04:34:17Z" finished-at="2020-01-28T04:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="6853" started-at="2020-01-28T04:34:17Z" finished-at="2020-01-28T04:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="checkTitle" duration-ms="9" started-at="2020-01-28T04:34:24Z" finished-at="2020-01-28T04:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="tearDown" is-config="true" duration-ms="630" started-at="2020-01-28T04:34:24Z" finished-at="2020-01-28T04:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="8210" started-at="2020-01-28T04:34:25Z" finished-at="2020-01-28T04:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="enterWrongUser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="enterWrongUser" duration-ms="8601" started-at="2020-01-28T04:34:33Z" finished-at="2020-01-28T04:34:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="tearDown" is-config="true" duration-ms="611" started-at="2020-01-28T04:34:42Z" finished-at="2020-01-28T04:34:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="7217" started-at="2020-01-28T04:34:42Z" finished-at="2020-01-28T04:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="loginTest" duration-ms="1580" started-at="2020-01-28T04:34:49Z" finished-at="2020-01-28T04:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@91161c7]" name="tearDown" is-config="true" duration-ms="801" started-at="2020-01-28T04:34:51Z" finished-at="2020-01-28T04:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saleforce.TestPage.loginTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

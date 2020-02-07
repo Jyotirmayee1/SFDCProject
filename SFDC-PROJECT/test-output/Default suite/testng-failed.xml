@@ -5,9 +5,9 @@
     <classes>
       <class name="com.saleforce.TestPage.loginTestPage">
         <methods>
+          <include name="ValidateForgotPasswod"/>
           <include name="tearDown"/>
           <include name="SetBrowser"/>
-          <include name="loginTest"/>
         </methods>
       </class> <!-- com.saleforce.TestPage.loginTestPage -->
     </classes>

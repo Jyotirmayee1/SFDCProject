@@ -37,10 +37,10 @@ public class logInPage extends reusablemethod {
 	//id for try for free
 	@FindBy(id="signup_link")
 	WebElement tryForFree  ;
+	
 	//Id for logo
 	//@FindBy(id="logo")
 	@FindBy(xpath="//img[@id='logo']")
-
 	WebElement SFDClogo  ;
 	
 	//Initialization of page Factory objects
@@ -56,26 +56,39 @@ public class logInPage extends reusablemethod {
 	//Check the Logo
 	public  boolean CheckLogo() {
 		return SFDClogo.isDisplayed();
-		
-	}
+		}
+	//Check the UsenamePlace
+	public boolean userName() {
+		return username.isDisplayed();
+		}	
+	
 	//This login page is return homePage
 	 public homePage login(String un,String pwd) {
 		 username.sendKeys(un);
 		 password.sendKeys(pwd);
 		 Login.click();
 		  return new  homePage();
-	
-
 	}	
-	
-		//This login page is return homePage
+	//This login page is return homePage
 	 public void  WrongInput(String un,String pwd) {
 		 username.sendKeys(un);
 		 password.sendKeys(pwd);
 		 Login.click();
-		  
-	
-
 	}
+	//rememember me button check
+	 public homePage rememberMe(String un,String pwd) {
+		 username.sendKeys(un);
+		 password.sendKeys(pwd);
+		 rememberMe.click();
+		 Login.click();
+		 return new  homePage(); 
+	 }
+	 
+	//This login page is return homePage
+		 public void forgotPassword(String un) {
+			 username.sendKeys(un);
+			 forgotPWD .click();
+			 
 }
 
+}

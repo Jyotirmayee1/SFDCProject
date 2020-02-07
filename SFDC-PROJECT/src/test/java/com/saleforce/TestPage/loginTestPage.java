@@ -33,13 +33,20 @@ public void checkTitle() {
 String Title=loginpage.getSFDCTitle();
 	Assert.assertEquals(Title,"Login | Salesforce");
 }
+
  @Test
  public void Validatelogo() {
   boolean flag=loginpage.CheckLogo();
   Assert.assertTrue(flag);	 
  }
-
+ 
 @Test
+public void  validateUseName() {
+boolean Uname= loginpage.userName();
+Assert.assertTrue(Uname);	
+}
+
+@Test(priority=3)
 public void loginTest() {
 	
 	homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
@@ -57,11 +64,22 @@ public void loginTest() {
 	System.out.println(" Login is completed"); 
 	 */
 }
-@Test
+@Test(priority=1)
 public void enterWrongUser() {
-	
-	homepage = loginpage.login(prop.getProperty("wrongUsername"), prop.getProperty("wrongPassword"));
+loginpage.login(prop.getProperty("wrongUsername"), prop.getProperty("wrongPassword"));
 }
+@Test(priority=2)
+public void validateRememberme() {
+loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+
+}
+@Test
+public void ValidateForgotPasswod() {
+	loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+	
+
+}
+
 @AfterMethod
 public void tearDown(){
 	driver.quit();

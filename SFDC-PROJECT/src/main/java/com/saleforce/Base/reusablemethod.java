@@ -21,6 +21,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 public class reusablemethod {
 
 	public static WebDriver driver=null;
@@ -29,12 +32,24 @@ public class reusablemethod {
 	public static long IMPLICITLY_WAIT=10;
 	//private static ExtentReports extent;
 	//private static ExtentTest Logger;
+	public static ExtentHtmlReporter Reporter;
+	public static  ExtentReports extent;
+	public static  com.aventstack.extentreports.ExtentTest logger ;
 	
 public  static void main(String[] args) throws InterruptedException, IOException  {
 	 Browserlunch();	
 	// extentReports();
 	
 	}
+public static void extentReports() {
+	
+	 Reporter = new ExtentHtmlReporter("./Reports1/Secondextent.html");
+	 extent = new ExtentReports();
+	 extent.attachReporter(Reporter);	
+	 logger = extent.createTest("testName");
+	
+	
+}
 public static void property() {
 try {	
 	prop = new Properties ();

@@ -1,37 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25236" started-at="2020-01-29T18:59:20Z" finished-at="2020-01-29T18:59:45Z">
+  <suite name="Default suite" duration-ms="86873" started-at="2020-02-08T19:35:35Z" finished-at="2020-02-08T19:37:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25236" started-at="2020-01-29T18:59:20Z" finished-at="2020-01-29T18:59:45Z">
+    <test name="Default test" duration-ms="86873" started-at="2020-02-08T19:35:35Z" finished-at="2020-02-08T19:37:02Z">
       <class name="com.saleforce.TestPage.homeTestPage$loginTestPage">
-        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="8781" started-at="2020-01-29T18:59:20Z" finished-at="2020-01-29T18:59:29Z">
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@548e7350]" name="SetBrowser" is-config="true" duration-ms="6876" started-at="2020-02-08T19:36:07Z" finished-at="2020-02-08T19:36:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetBrowser -->
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@91161c7]" name="testMethod1" duration-ms="4" started-at="2020-01-29T18:59:29Z" finished-at="2020-01-29T18:59:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="7241" started-at="2020-01-29T18:59:29Z" finished-at="2020-01-29T18:59:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetBrowser -->
-        <test-method status="PASS" signature="testMethod3()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@91161c7]" name="testMethod3" duration-ms="0" started-at="2020-01-29T18:59:36Z" finished-at="2020-01-29T18:59:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod3 -->
-        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@91161c7]" name="SetBrowser" is-config="true" duration-ms="7230" started-at="2020-01-29T18:59:36Z" finished-at="2020-01-29T18:59:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetBrowser -->
-        <test-method status="PASS" signature="validatelogout()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@91161c7]" name="validatelogout" duration-ms="1954" started-at="2020-01-29T18:59:43Z" finished-at="2020-01-29T18:59:45Z">
+        <test-method status="PASS" signature="validatelogout()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@548e7350]" name="validatelogout" duration-ms="7817" started-at="2020-02-08T19:36:14Z" finished-at="2020-02-08T19:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.homeTestPage$loginTestPage@548e7350]" name="tearDown" is-config="true" duration-ms="611" started-at="2020-02-08T19:36:22Z" finished-at="2020-02-08T19:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.saleforce.TestPage.homeTestPage$loginTestPage -->
+      <class name="com.saleforce.TestPage.loginTestPage">
+        <test-method status="PASS" signature="setExtentRepo()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="setExtentRepo" is-config="true" duration-ms="137" started-at="2020-02-08T19:35:35Z" finished-at="2020-02-08T19:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentRepo -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="7457" started-at="2020-02-08T19:35:35Z" finished-at="2020-02-08T19:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="ValidateForgotPasswod()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="ValidateForgotPasswod" duration-ms="1198" started-at="2020-02-08T19:35:42Z" finished-at="2020-02-08T19:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateForgotPasswod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="618" started-at="2020-02-08T19:35:44Z" finished-at="2020-02-08T19:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="6877" started-at="2020-02-08T19:35:44Z" finished-at="2020-02-08T19:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="Validatelogo()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="Validatelogo" duration-ms="66" started-at="2020-02-08T19:35:51Z" finished-at="2020-02-08T19:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validatelogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="608" started-at="2020-02-08T19:35:51Z" finished-at="2020-02-08T19:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="7541" started-at="2020-02-08T19:35:52Z" finished-at="2020-02-08T19:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="checkTitle" duration-ms="13" started-at="2020-02-08T19:35:59Z" finished-at="2020-02-08T19:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="617" started-at="2020-02-08T19:35:59Z" finished-at="2020-02-08T19:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="6802" started-at="2020-02-08T19:36:00Z" finished-at="2020-02-08T19:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="validateUseName()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="validateUseName" duration-ms="30" started-at="2020-02-08T19:36:07Z" finished-at="2020-02-08T19:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUseName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="626" started-at="2020-02-08T19:36:07Z" finished-at="2020-02-08T19:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="6908" started-at="2020-02-08T19:36:23Z" finished-at="2020-02-08T19:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="enterWrongUser()[pri:1, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="enterWrongUser" duration-ms="7871" started-at="2020-02-08T19:36:30Z" finished-at="2020-02-08T19:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="603" started-at="2020-02-08T19:36:38Z" finished-at="2020-02-08T19:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="6825" started-at="2020-02-08T19:36:38Z" finished-at="2020-02-08T19:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="validateRememberme()[pri:2, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="validateRememberme" duration-ms="7080" started-at="2020-02-08T19:36:45Z" finished-at="2020-02-08T19:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRememberme -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="605" started-at="2020-02-08T19:36:52Z" finished-at="2020-02-08T19:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetBrowser()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="SetBrowser" is-config="true" duration-ms="6790" started-at="2020-02-08T19:36:53Z" finished-at="2020-02-08T19:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="loginTest" duration-ms="1445" started-at="2020-02-08T19:36:59Z" finished-at="2020-02-08T19:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="tearDown" is-config="true" duration-ms="600" started-at="2020-02-08T19:37:01Z" finished-at="2020-02-08T19:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.saleforce.TestPage.loginTestPage@5442a311]" name="teardown" is-config="true" duration-ms="220" started-at="2020-02-08T19:37:01Z" finished-at="2020-02-08T19:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.saleforce.TestPage.loginTestPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
